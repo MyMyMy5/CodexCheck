@@ -114,6 +114,8 @@ h1 {
     font-size: 1em;
     line-height: 1.4em;
     overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
     white-space: pre-wrap;
     overflow: hidden;
     white-space: nowrap;
@@ -132,6 +134,7 @@ h1 {
 
 .letter-wrapper:hover .letter-text {
     opacity: 1;
+
     animation: typing 4s steps(40) forwards;
 }
 
@@ -139,6 +142,7 @@ h1 {
     from { transform: rotate(0); }
     to { transform: rotate(360deg); }
 }
+
 
 @keyframes typing {
     from { width: 0; }
