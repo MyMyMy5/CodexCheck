@@ -1,0 +1,6 @@
+python>=3.10
+freqtrade>=2024.9
+openai>=1.14
+pandas
+ta-lib
+pytest
