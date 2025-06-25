@@ -1,5 +1,5 @@
 freqtrade>=2024.9
 openai>=1.14
 pandas
-TA-Lib==0.4.28
+ta-lib
 pytest
