@@ -1,6 +1,6 @@
 freqtrade>=2024.9
 openai>=1.14
 pandas
-numpy<2.0
-TA-Lib-Precompiled==0.4.28   
+numpy<2.0          # Freqtrade itself pins NumPy under 2.0 :contentReference[oaicite:1]{index=1}
+TA-Lib-Precompiled   # 0.4.25 will be selected automatically for Py-3.11
 pytest
